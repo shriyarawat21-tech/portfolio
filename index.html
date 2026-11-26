@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- EDIT SEO META TAGS HERE -->
+  <title>Alex Morgan | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Alex Morgan, Data Analyst specializing in SQL, Python, Power BI, Tableau, Excel, Data Cleaning, Data Visualization, and EDA." />
+  <meta name="keywords" content="Data Analyst, SQL, Python, Power BI, Tableau, Excel, Data Visualization, EDA, Portfolio" />
+  <meta name="author" content="Alex Morgan" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar glass" id="navbar">
+    <div class="container nav-container">
+      <!-- EDIT YOUR BRAND / NAME LOGO HERE -->
+      <a href="#home" class="brand-logo">
+        <span class="brand-accent">&lt;/&gt;</span>
+        <span>AlexMorgan<span class="dot">.</span></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- EDIT NAVIGATION LINKS HERE -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content" data-reveal>
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <!-- EDIT AVAILABILITY BADGE TEXT HERE -->
+            <span>Open to Data Analyst Opportunities</span>
+          </div>
+
+          <!-- EDIT YOUR NAME HERE -->
+          <h1 class="hero-title">
+            Hi, I’m <span class="gradient-text">Alex Morgan</span>
+          </h1>
+
+          <!-- EDIT YOUR TITLE & TYPING ROLES HERE -->
+          <h2 class="hero-subtitle">
+            Data Analyst &mdash; <span class="typing-wrapper"><span id="typing-text" class="typing-text"></span><span class="cursor">|</span></span>
+          </h2>
+
+          <!-- EDIT YOUR HERO INTRODUCTION HERE -->
+          <p class="hero-description">
+            I turn raw, messy datasets into clear business stories and measurable decisions using
+            <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, and <strong>Excel</strong>—helping teams uncover revenue leaks, forecast trends, and act with confidence.
+          </p>
+
+          <!-- Core Hero Skill Pills -->
+          <div class="hero-pills" aria-label="Core Data Analyst Tools">
+            <span class="pill">SQL</span>
+            <span class="pill">Python</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Excel</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <!-- EDIT RESUME FILE PATH HERE IF NEEDED -->
+            <a href="resume.pdf" download="Alex_Morgan_Resume.pdf" class="btn btn-primary">
+              <span>Download Resume</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+            </a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+
+          <!-- EDIT YOUR SOCIAL LINKS HERE -->
+          <div class="social-links" aria-label="Social Media Links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19ZM8.34 17.34V10.67H6.12V17.34H8.34ZM7.23 9.75C8 9.75 8.55 9.24 8.55 8.6C8.54 7.95 8 7.45 7.24 7.45C6.49 7.45 6 7.95 6 8.6C6 9.24 6.48 9.75 7.21 9.75H7.23ZM17.88 17.34V13.56C17.88 11.53 16.8 10.59 15.36 10.59C14.2 10.59 13.68 11.23 13.39 11.68V10.67H11.18C11.21 11.27 11.18 17.34 11.18 17.34H13.39V13.62C13.39 13.42 13.41 13.22 13.47 13.08C13.63 12.68 13.99 12.27 14.61 12.27C15.41 12.27 15.66 12.88 15.66 13.77V17.34H17.88Z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2A10 10 0 0 0 8.84 21.5C9.34 21.58 9.52 21.27 9.52 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.52 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.68 21.59 15.18 21.5A10 10 0 0 0 12 2Z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <!-- EDIT YOUR EMAIL ADDRESS HERE -->
+            <a href="mailto:alex.morgan@example.com" class="social-icon" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Photograph Card -->
+        <div class="hero-visual" data-reveal>
+          <div class="profile-frame glass">
+            <!-- EDIT YOUR PROFILE PHOTOGRAPH PATH HERE (images/profile.jpg) -->
+            <img
+              src="shri.png"
+              alt="Alex Morgan - Data Analyst"
+              class="profile-img"
+              onerror="handleImageFallback(this, 'AM', 'Profile Photo: images/profile.jpg')"
+            />
+            <div class="profile-caption glass">
+              <span class="mono">SQL • Python • Power BI</span>
+              <strong>Insight-Driven Analytics</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">01 / ABOUT ME</span>
+          <h2 class="section-title">Turning Complex Data Into <span class="gradient-text">Clarity</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass card about-main" data-reveal>
+            <h3>Who I Am</h3>
+            <!-- EDIT YOUR PROFESSIONAL INTRODUCTION HERE -->
+            <p>
+              I am a detail-oriented Data Analyst with a strong foundation in statistical analysis, relational databases,
+              and executive dashboarding. I enjoy digging into ambiguous datasets, validating assumptions, and building
+              reproducible pipelines that stakeholders can trust.
+            </p>
+
+            <h3>Education &amp; Background</h3>
+            <!-- EDIT YOUR EDUCATION SUMMARY HERE -->
+            <p>
+              I hold a Bachelor’s degree in Information Systems &amp; Analytics, where I built hands-on expertise in database
+              design, quantitative modeling, and visual communication. Whether profiling millions of rows in SQL or automating
+              recurring reports in Python and Excel, I focus on accuracy and business relevance.
+            </p>
+
+            <h3>Career Goals &amp; Problem-Solving Approach</h3>
+            <!-- EDIT YOUR CAREER GOALS & ANALYTICAL APPROACH HERE -->
+            <p>
+              My goal is to grow as a Data Analyst on a product, operations, or growth team where data directly shapes
+              strategy. I approach every problem systematically: define the business question, audit data quality, test
+              hypotheses through Exploratory Data Analysis (EDA), and present clear, actionable recommendations.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <!-- EDIT HIGHLIGHT CARDS HERE -->
+            <div class="glass card highlight-card" data-reveal>
+              <div class="highlight-num gradient-text">01</div>
+              <h4>Root-Cause &amp; Hypothesis Thinking</h4>
+              <p>I separate correlation from causation and trace KPI shifts back to exact segments, channels, or product events.</p>
+            </div>
+
+            <div class="glass card highlight-card" data-reveal>
+              <div class="highlight-num gradient-text">02</div>
+              <h4>Clean, Reliable Data Pipelines</h4>
+              <p>From handling missing values and duplicates to writing modular SQL queries, I prioritize trustworthy inputs.</p>
+            </div>
+
+            <div class="glass card highlight-card" data-reveal>
+              <div class="highlight-num gradient-text">03</div>
+              <h4>Decision-First Storytelling</h4>
+              <p>I design intuitive dashboards and concise summaries tailored for non-technical leaders and cross-functional teams.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TECHNICAL SKILLS ==================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">02 / TECHNICAL SKILLS</span>
+          <h2 class="section-title">Data &amp; Analytics <span class="gradient-text">Toolkit</span></h2>
+          <!-- EDIT SKILLS SUBTITLE HERE -->
+          <p class="section-subtitle">Core languages, BI platforms, and analytical workflows I use across projects.</p>
+        </div>
+
+        <!-- EDIT YOUR TECHNICAL SKILLS IN SCRIPT.JS OR DIRECTLY HERE -->
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. MY PROJECTS ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">03 / MY PROJECTS</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Analytics Projects</span></h2>
+          <!-- EDIT PROJECTS SUBTITLE HERE -->
+          <p class="section-subtitle">
+            7 end-to-end projects highlighting data cleaning, exploratory analysis, interactive dashboards, and business insights.
+          </p>
+        </div>
+
+        <!-- Filter Buttons (Auto-populated / interactive via script.js) -->
+        <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter projects by tool" data-reveal>
+          <button class="filter-btn active" data-filter="All">All Projects (7)</button>
+          <button class="filter-btn" data-filter="SQL">SQL</button>
+          <button class="filter-btn" data-filter="Python">Python</button>
+          <button class="filter-btn" data-filter="Power BI">Power BI</button>
+          <button class="filter-btn" data-filter="Tableau">Tableau</button>
+          <button class="filter-btn" data-filter="Excel">Excel</button>
+        </div>
+
+        <!-- 7 Project Cards Rendered by script.js -->
+        <!-- EDIT YOUR 7 PROJECTS (TITLE, IMAGE PATH, DESCRIPTION, TOOLS, INSIGHTS, LINKS) IN script.js -->
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. EDUCATION & CERTIFICATIONS ==================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">04 / EDUCATION &amp; CERTIFICATIONS</span>
+          <h2 class="section-title">Academic Foundation &amp; <span class="gradient-text">Credentials</span></h2>
+        </div>
+
+        <div class="edu-cert-grid">
+          <!-- EDIT EDUCATION DETAILS HERE -->
+          <div class="glass card edu-column" data-reveal>
+            <h3 class="column-heading">
+              <span class="heading-icon">🎓</span>
+              Education
+            </h3>
+
+            <div class="timeline-list">
+              <article class="timeline-item">
+                <span class="timeline-date mono">2021 &ndash; 2025</span>
+                <h4>B.S. in Information Systems &amp; Data Analytics</h4>
+                <p class="institution">State University of Technology</p>
+                <p class="timeline-desc">
+                  Focused on Database Management Systems, Applied Statistics, Business Intelligence, and Data Visualization.
+                  Capstone project: Customer Churn &amp; Lifetime Value Modeling.
+                </p>
+              </article>
+
+              <!-- Duplicate or edit this block to add another degree/coursework -->
+              <article class="timeline-item">
+                <span class="timeline-date mono">Relevant Coursework</span>
+                <h4>Quantitative &amp; Data Foundations</h4>
+                <p class="institution">Core Academic Modules</p>
+                <p class="timeline-desc">
+                  Relational SQL &amp; Data Warehousing, Probability &amp; Inferential Statistics, Python Programming, and Operations Analytics.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- EDIT CERTIFICATIONS DETAILS HERE -->
+          <div class="glass card cert-column" data-reveal>
+            <h3 class="column-heading">
+              <span class="heading-icon">🏅</span>
+              Certifications
+            </h3>
+
+            <div class="cert-list">
+              <div class="cert-item">
+                <div class="cert-top">
+                  <h4>Microsoft Certified: Power BI Data Analyst Associate</h4>
+                  <span class="cert-year mono">2025</span>
+                </div>
+                <p class="institution">Microsoft</p>
+                <p class="timeline-desc">Data preparation, DAX modeling, interactive report design, and performance optimization.</p>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-top">
+                  <h4>Google Data Analytics Professional Certificate</h4>
+                  <span class="cert-year mono">2024</span>
+                </div>
+                <p class="institution">Google / Coursera</p>
+                <p class="timeline-desc">End-to-end data cleaning, SQL querying, spreadsheet analysis, R/Python basics, and stakeholder presentations.</p>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-top">
+                  <h4>SQL &amp; Python for Data Analysis Specialization</h4>
+                  <span class="cert-year mono">2024</span>
+                </div>
+                <p class="institution">DataCamp / Online Credential</p>
+                <p class="timeline-desc">Window functions, CTEs, pandas data wrangling, exploratory data analysis, and statistical testing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. RESUME SECTION ==================== -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="glass resume-banner" data-reveal>
+          <div class="resume-text">
+            <span class="section-tag">05 / RESUME</span>
+            <h2>Ready to Review My <span class="gradient-text">Full Resume</span>?</h2>
+            <!-- EDIT RESUME SUMMARY TEXT HERE -->
+            <p>
+              Download a clean, recruiter-ready PDF copy of my resume including technical skills, project outcomes, education, and certifications.
+            </p>
+            <p class="file-hint mono">File path: <code>portfolio/resume.pdf</code></p>
+          </div>
+
+          <div class="resume-actions">
+            <!-- EDIT RESUME FILE PATH AND DOWNLOAD NAME HERE -->
+            <a href="resume.pdf" download="Alex_Morgan_Data_Analyst_Resume.pdf" class="btn btn-primary btn-lg">
+              <span>Download Resume (PDF)</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+            </a>
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Preview in Browser</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. CONTACT SECTION ==================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">06 / CONTACT</span>
+          <h2 class="section-title">Let’s <span class="gradient-text">Connect</span></h2>
+          <!-- EDIT CONTACT INTRO HERE -->
+          <p class="section-subtitle">
+            Have a Data Analyst role, analytics challenge, or collaboration in mind? Reach out directly via email, LinkedIn, or GitHub.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards" data-reveal>
+            <!-- EDIT YOUR EMAIL HERE -->
+            <div class="glass card contact-item">
+              <div class="contact-label">Email</div>
+              <div class="contact-value-row">
+                <a href="mailto:alex.morgan@example.com" id="email-link" class="contact-value">alex.morgan@example.com</a>
+                <button type="button" class="copy-btn" id="copy-email-btn" title="Copy email address">Copy</button>
+              </div>
+            </div>
+
+            <!-- EDIT YOUR LINKEDIN URL HERE -->
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="glass card contact-item contact-link-card">
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">linkedin.com/in/your-profile &rarr;</div>
+            </a>
+
+            <!-- EDIT YOUR GITHUB URL HERE -->
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="glass card contact-item contact-link-card">
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">github.com/your-username &rarr;</div>
+            </a>
+          </div>
+
+          <!-- Quick Contact Message Form (Opens mail client or copies message cleanly) -->
+          <form class="glass card contact-form" id="contact-form" data-reveal>
+            <h3>Send a Quick Note</h3>
+            <div class="form-group">
+              <label for="sender-name">Your Name</label>
+              <input type="text" id="sender-name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="sender-email">Your Email</label>
+              <input type="email" id="sender-email" name="email" placeholder="jane@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="sender-message">Message</label>
+              <textarea id="sender-message" name="message" rows="4" placeholder="Hi Alex, I'd love to connect regarding a Data Analyst role..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Compose Email</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal (Opens when clicking a project card's details button) -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true">
+    <div class="modal-dialog glass" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Close project details">&times;</button>
+      <div class="modal-image-wrap">
+        <img id="modal-img" src="" alt="" />
+      </div>
+      <div class="modal-body">
+        <div class="modal-tags" id="modal-tags"></div>
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc" class="modal-desc"></p>
+        <div class="modal-insight-box">
+          <strong>Key Insights &amp; Impact</strong>
+          <ul id="modal-insights"></ul>
+        </div>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <!-- EDIT FOOTER COPYRIGHT HERE -->
+      <p>&copy; <span id="year"></span> Alex Morgan. Built with HTML, CSS &amp; Vanilla JavaScript.</p>
+      <a href="#home" class="back-to-top">Back to Top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
